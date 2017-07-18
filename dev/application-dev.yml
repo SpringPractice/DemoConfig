@@ -1,16 +1,6 @@
 security:
-  user:
-    name: admin
-    password: admin
   basic:
-    enabled: false 
+    enabled: false
 management:
   security:
     enabled: false
-    
-jwt.secret.key: abc$$123$      
-
-public.urls: /env,/health,/metrics,/info,/refresh
-
-
-          
