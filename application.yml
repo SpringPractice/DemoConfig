@@ -5,4 +5,15 @@ management:
 security:
   user:
     name: admin
-    password: admin    
+    password: admin  
+---
+spring:
+  datasource:
+    username: scott
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:oracle:thin:@//localhost:1521/PDBORCL
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: tiger 
+    hikari:
+      pool-name: DemoHikariPool
+        
